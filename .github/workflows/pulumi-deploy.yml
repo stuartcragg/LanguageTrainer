@@ -19,7 +19,7 @@ jobs:
           node-version: '16'
 
       - name: Install Pulumi
-        uses: pulumi/setup-pulumi@v3
+        uses: pulumi/setup-pulumi@v2
         with:
           pulumi-version: latest
 
