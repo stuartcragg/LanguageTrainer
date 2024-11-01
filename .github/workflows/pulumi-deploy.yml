@@ -33,7 +33,7 @@ jobs:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
 
       - name: Change to Pulumi project directory
-        run: cd path/to/your/pulumi/project
+        run: cd /home/runner/work/LanguageTrainer/LanguageTrainer
   
       - name: Select Pulumi stack
         run: pulumi stack select <your-stack-name>
