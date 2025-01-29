@@ -1,6 +1,12 @@
 # Local .terraform directories
 **/.terraform/*
 
+# Ignore the Terraform Folder
+terraform/
+
+# Ignore Mac files 
+.DS_Store
+
 # .tfstate files
 *.tfstate
 *.tfstate.*
