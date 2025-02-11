@@ -37,6 +37,7 @@ jobs:
           client-id: ${{ secrets.UAMI_CLIENT_ID }}
           tenant-id: ${{ secrets.AZURE_TENANT_ID }}
           subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+          federated-credential: true
 
       - name: Change to Pulumi project directory
         run: cd /home/runner/work/LanguageTrainer/LanguageTrainer
